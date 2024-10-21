@@ -2,7 +2,7 @@ clear variables
 
 global name_parameters
 
-name_parameters='villarrica2015f';
+name_parameters='calbuco2015d';
 
 global sol zsol vinicial wr dl count rho_ti;
 global rbub rbub2 visctot visctot2 xtot1 xtot;
@@ -96,7 +96,7 @@ if isreal(w2) && (~isnan(deltP2) && deltT>10)
         wr=w;
     end
 
-RIconduitef5_4csmrange
+RIconduitef5_4crange
 
 if count>=49
     solef=false;
@@ -156,7 +156,7 @@ dim = [.1381 .16 .1359 .0322];
 str19 = [' Inlet Overpressure = ' num2str(deltPused,'%.3g ') ' Pa'];
 str20= {str2,str19};
 dim10 = [.1381 .56 .1359 .0322];
-str10 = [' Melt temperature = ' num2str(Tused-273.15,'%.3g ') ' °C'];
+str10 = [' Melt temperature = ' num2str(Tused-273.15,'%.3g ') ' Â°C'];
 str11 = [' Initial crystal content = ' num2str(xused*100,'%.3g ') ' %'];
 str12 = [' Water content = ' num2str(h2oused,'%.3g ') ' %'];
 str13 = {str10, str11, str12};
@@ -207,7 +207,7 @@ dim = [.1381 .16 .1359 .0322];
 str19 = [' Inlet Overpressure = ' num2str(deltPused,'%.3g ') ' Pa'];
 str20= {str2,str19};
 dim10 = [.1381 .56 .1359 .0322];
-str10 = [' Melt temperature = ' num2str(Tused-273.15,'%.3g ') ' °C'];
+str10 = [' Melt temperature = ' num2str(Tused-273.15,'%.3g ') ' Â°C'];
 str11 = [' Initial crystal content = ' num2str(xused*100,'%.3g ') ' %'];
 str12 = [' Water content = ' num2str(h2oused,'%.3g ') ' %'];
 str13 = {str10, str11, str12};
